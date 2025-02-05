@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/WaggleWaggle-v2/waggle-backend-config
+          uri: https://github.com/Gotcha-Getcha/gotcha-backend
           username: ${GITHUB_USERNAME}
           password: ${GITHUB_PASSWORD}
 
