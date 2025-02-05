@@ -1,0 +1,7 @@
+rootProject.name = 'getcha'
+
+/* ============= *
+ * [APPLICATION] *
+ * ============= */
+include('modules_app')
+include('modules_app:app_config')
