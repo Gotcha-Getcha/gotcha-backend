@@ -4,4 +4,17 @@ rootProject.name = 'getcha'
  * [APPLICATION] *
  * ============= */
 include('modules_app')
+include('modules_app:app_batch')
 include('modules_app:app_config')
+include('modules_app:app_user')
+
+/* ============= *
+ * [INDEPENDENT] *
+ * ============= */
+include('modules_independent')
+include('modules_independent:independent_redis')
+
+/* ======== *
+ * [SYSTEM] *
+ * ======== */
+include('modules_system')
